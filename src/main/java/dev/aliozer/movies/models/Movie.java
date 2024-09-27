@@ -25,7 +25,5 @@ public class Movie {
     private String poster;
     private List<String> genres = new ArrayList<>();
     private List<String> backdrops =new ArrayList<>();
-    // this annotation will cause the database to store only the IDs of the reviews and
-    // the reviews will be in the separate collection. This is called manuel reference relationship.
     private List<Review> reviewIds = new ArrayList<>();
 }
